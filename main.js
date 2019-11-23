@@ -12,6 +12,6 @@ function getElementBySelector(selector, debug){
 
 function createElement(elementType){
   var el = document.createElement(elementType);
-  document.appendChild(el);
+  document.body.appendChild(el);
   return el;
 }
